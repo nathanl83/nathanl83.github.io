@@ -1,0 +1,88 @@
+body {
+  background-color: white;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #fa2dde;     /* Rose vif (remplace vert clair #4CAF50) */
+  font-size: 35px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.content {
+  background-color: #ffffff;
+  border: 2px solid #fa2dde; /* Rose vif */
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  max-width: 800px;
+  width: 90%;
+  padding: 20px;
+  margin: 20px auto;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  font-size: 22px;
+}
+
+.content:hover {
+  transform: scale(1.02);
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+.menu-container {
+  display: flex;
+  background-color: #fa2dde; /* Rose vif */
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.menu-item {
+  padding: 15px 25px;
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.menu-item a {
+  text-decoration: none;
+  color: #fff; /* Texte blanc conservé */
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: block;
+}
+
+.menu-item:hover {
+  background-color: #d424b8; /* Rose foncé (remplace #45a049) */
+  transform: scale(1.1);
+}
+
+.menu-item:active {
+  background-color: #ad1c94; /* Rose plus foncé (remplace #3e8e41) */
+}
+
+@media (max-width: 768px) {
+  .menu-container {
+      flex-direction: column;
+      width: 100%;
+  }
+  .menu-item {
+      padding: 12px 0;
+  }
+}
+
+.problematique {
+  color: #e53935;  /* Rouge vif conservé */
+  font-size: 27px;
+  font-weight: bold;
+}

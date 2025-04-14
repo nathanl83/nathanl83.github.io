@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Titre de la page</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <h2><a href="index.html">Accueil</a></h2>
+
+  <h2 id="semaine1">Semaine 1</h2>
+  <div class="content">
+    rubik's cube et le god number. La recherche mathématique ncessaire pour trouver le nombre minimum de coup pour
+  résoudre un rubik's cube avec n'importe quelle configuration. Aussi le devil algorithm et le devil number peuvent etre
+  utile.
+  </div>
+
+  <h2 id="semaine2">Semaine 2</h2>
+  <div class="content">
+    <a href ="http://geometer.org/rubik/group.pdf"> cycle de permutation </a>
+  GROS BANGER cycle de permutation p.10 lien avec le PPCM qui est egal au nombre de fois qu'il faut appliquer la
+  permutation pour obtenir la configuration initiale p.12. Bas de la page 23 explication sur les nombre de combinaison
+  "utile".
+  <br>
+  <br>
+  <a href = "http://www.sandal.tw/upload/Adventures%20in%20Group%20Theory_%20Rubik%27s%20Cube,%20Merlin%27s%20Machine,%20and%20Other%20Mathematical%20Toys%20by%20David%20Joyner.pdf">
+  un livre très interessant traitant notamment du God number. De plus explique le god number. </a>
+  </div>
+
+  <h2 id="semaine3">Semaine 3</h2>
+  <div class="content">
+   je vais m'orienter sur le god number en particulier mais il me fut des connaissance sur les groupe et les groupes de
+  permutation. Je peux peut etre penser a une problematique du style : "comment trouver un algorithme (plus ou moins
+  complexe) permettant de résoudre un cube en un nombre minimal de coup".
+
+OU alors le devil number c'est un algorithme qu'on applique en boucle pour resoudre un cube. Un algorithme est deja
+  crée pour le 2x2x2 mais pas le 3x3x3. A voir si je prend cette branche de plutot parler du 2x2x2 ou du 3x3x3. Ca je ne
+  sais pas du tout mais je pense que le 3x3x3 est plus intéressant surtout que ca n'a pas été prouvé.
+<a href = "http://anttila.ca/michael/devilsalgorithm/"> devil number </a>
+  </div>
+
+  <h2 id="semaine4">Semaine 4</h2>
+  <div class="content">
+    je vais m'orienter toujorus sur les rubiks cube mais j'ai eu l'idee d'implementer un rubiks cube en tant que table de hachage dans la cryptographie il faut que je m'informe au sujet de la cryptographie donc. Je dsais de plus que les mouvement du cube forme un groupe je pensais donc a introduire un morphisme de groupe qui transforme un enchainement de mouvement du cube ne une certaine commande. En gros j'aimerais creer une table de hachage avec les mouvement du cube. Je ne sais pas encore si le mieux est de prendre en entree un cube ou un enchainement de mouvement. En effet je me questionne aussi au fait de juste avec un cube melange et ce qui formerait avec les emplacement des petit cubes un certain cryptage mais ceci reste a regarder apres avoir étudié en detaille ce que c'est la cryptographie et comment ca marche tout ca.
+  <br>
+  <a href ="https://www.cnil.fr/fr/cybersecurite/comprendre-les-grands-principes-de-la-cryptologie-et-du-chiffrement">CNIL cryptologie principe generaux </a>
+  <br>
+   <a href ="https://chamilo.grenoble-inp.fr/courses/ENSE3A13EMAPPSIC/document/resources/Fiches/04_1_HashTable.html">table de hachage </a>
+<br>
+<a href ="https://www.cnil.fr/fr/cybersecurite/comprendre-les-grands-principes-de-la-cryptologie-et-du-chiffrement">CNIL cryptologie principe generaux </a>
+  <br>
+   <a href ="https://chamilo.grenoble-inp.fr/courses/ENSE3A13EMAPPSIC/document/resources/Fiches/04_1_HashTable.html">table de hachage </a>
+  </div>
+
+  <h2 id="semaine5">Semaine 5</h2>
+  <div class="content">
+    ce qui peut etre interressant c'est de chercher la meilleur table de hachage possible a l'aide d'un rubiks cube je voyais bien une table de hachage qui prend en parametre un nom donc du string qui transforme mes lettre en entier mais il faudrait donner une facon de trancher mes lettres peut etre faire des associations de lettres.
+   J'ai pour idee de trancher 20 fois le nom un algorithme qui change en fonction du nombre de lettres en entrée. Cela me ressort une liste de mouvement que je retranscris dans mon cube et le nom codé sera les tableau du cube à la suite donc un nombre en 24 chiffres.
+   <br>
+   <br>
+   <a href ="https://www.pingidentity.com/fr/resources/blog/post/encryption-vs-hashing-vs-salting.html">comparaison hashing salting </a>
+   <a href ="https://www.okta.com/fr/identity-101/hashing-algorithms/">approfondissement fonction de hachage</a>
+  </div>
+
+<h2 id="references">References supplémentaires</h2>
+ <div class="content">
+<a href = "https://ruwix.com/the-rubiks-cube/gods-number/" >explication god number </a>
+  <br>
+  <a href = "https://digitalrepository.salemstate.edu/bitstream/handle/20.500.13013/658/McManus__20Erin.pdf?sequence=2&isAllowed=y"> les mathematiques representé par le cube</a>
+  <br>
+  <a href = "https://www.researchgate.net/publication/327251628_Overview_of_Rubik's_Cube_and_Reflections_on_Its_Application_in_Mechanism"> les mathematiques dans d'autres casse tete</a>
+  <br>
+  <a href = "https://cube20.org/" > petit article sur l'histoire du god number </a>
+
+</div>
+</body>
+</html>
